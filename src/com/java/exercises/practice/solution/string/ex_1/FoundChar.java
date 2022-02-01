@@ -10,10 +10,10 @@ public class FoundChar {
         Scanner scanner = new Scanner(System.in);
         String str = scanner.next();
 
-        System.out.println("Напишите индекс1");
+        System.out.println("write the index 1");
         int ind1 = scanner.nextInt();
 
-        System.out.println("Напишите индекс2");
+        System.out.println("write the index 2");
         int ind2 = scanner.nextInt();
 
         int resultInd1 = str.charAt(ind1);
